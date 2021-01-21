@@ -76,12 +76,16 @@
   }
 }
 
+.article-inner .title-mb-0{
+  margin-bottom: 0!important;
+}
+
 .article-inner h1.article-title, .article-title {
   color: #696969;
   margin-left: 0px;
   font-weight: 300;
   line-height: 35px;
-  margin-bottom: 0!important;
+  margin-bottom: 0;
   font-size: 26px;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;

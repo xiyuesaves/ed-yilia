@@ -6,18 +6,18 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://www.github.com/xiyuesaves/"
+  # weibo: "#"
+  # rss: "#"
+  # zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
-  #bilibili: "#"
+  # bilibili: "https://space.bilibili.com/10803259"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:xiyuesaves@gmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -43,7 +43,7 @@ open_in_new: false
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -53,7 +53,7 @@ weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -68,10 +68,10 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /img/avatar.png
 
 #是否开启分享
-share_jia: true
+share_jia: false
 
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
 #不需要使用某项，直接设置值为false，或注释掉
@@ -103,6 +103,7 @@ style:
   header: '#4d4d4d'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  # slider: 'url(./img/unnamed.jpg)'
 
 # slider的设置
 slider:

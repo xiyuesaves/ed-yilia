@@ -32,8 +32,14 @@
         </div>
         <div class="widget tagcloud search-tag">
           <p class="search-tag-wording">tag:</p>
-          <label class="search-switch">
+          <!-- <label class="search-switch">
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label> -->
+          <label class=" toggle toggle-balanced">
+              <input q-on="click:toggleTag(e)" q-attr="checked:showTags" type="checkbox">
+              <div class="track">
+                  <div class="handle"></div>
+              </div>
           </label>
           <ul class="article-tag-list" q-show="showTags">
             <% site.tags.forEach(function(tag, i){ %> 

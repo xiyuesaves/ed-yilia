@@ -11,11 +11,15 @@
         a {
             border-radius:50%;
             display:-moz-inline-stack;
-            display:inline-block;
+            // display:inline-block;
+            display:flex;
+            align-items: center;
+            justify-content: center;
             vertical-align:middle;
+            padding-top: 2px;
             *vertical-align:auto;
             zoom:1;
-            *display:inline;
+            // *display:inline;
             margin:0 8px 15px 8px;
             transition:0.3s;
             text-align: center;

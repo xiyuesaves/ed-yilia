@@ -1,9 +1,9 @@
 <a href="<%- url_for(post.path) %>" class="<%= class_name %>">
   	<time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><i class="icon-calendar icon"></i><%= date(post.date, date_format) %></time>
-  	<time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><span id="busuanzi_container_site_uv">
-  		<!-- <span class="read-num"> -->
-  			<i class="icon2-eye icon2"></i>
-  			<span title="查看次数" id="busuanzi_value_site_pv"></span>
-  		<!-- </span> -->
-  	</time>
+  	<% if (!index) { %>
+		<time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><span id="busuanzi_container_site_uv">
+			<i class="icon2-eye icon2"></i>
+			<span title="阅读数" id="busuanzi_value_site_pv"></span>
+		</time>
+  	<% } %>
 </a>

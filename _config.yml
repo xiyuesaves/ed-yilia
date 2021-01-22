@@ -73,9 +73,6 @@ avatar: /img/avatar.png
 #是否开启分享
 share_jia: false
 
-#是否启用博文底部版权信息2强制显示1仅在博文内声明后显示0永不显示
-copyright_type: 2 
-
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
 #不需要使用某项，直接设置值为false，或注释掉
 #具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/

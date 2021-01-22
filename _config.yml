@@ -123,5 +123,7 @@ smart_menu:
 friends:
   还没有链接哦: ""
 
-
 aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+
+# 是否在网页底部展示备案号,不需要则保持false
+beian: false

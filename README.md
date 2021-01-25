@@ -4,7 +4,7 @@ edit-hexo-theme-yilia
 ed-yilia是根据[Yilia](https://github.com/litten/hexo-theme-yilia)修改的版本
 
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
-崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.me/) 查看效果。           
+崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](https://blog.furryworld.top/) 查看效果。           
  
 如果想体验手机浏览效果，可以扫一下二维码：
 

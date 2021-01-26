@@ -99,11 +99,13 @@ gitment_oauth:
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
-  # 头像上面的背景颜色
-  header: '#4d4d4d'
+  # 主题色,包括头像上面的背景颜色,文章左边的色块,tag开关颜色
+  # main_color: '#4d4d4d'
+  main_color: '#4d4d4d'
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
-  # slider: 'url(./img/unnamed.jpg)'
+  slider: 'linear-gradient(200deg,#bdc3c7,#2c3e50)'
+  # 右滑板块文字颜色
+  slider_color: '#eeeeee'
 
 # slider的设置
 slider:
@@ -121,9 +123,9 @@ smart_menu:
   aboutme: '关于'
 
 friends:
-  还没有链接哦: ""
+  还没有链接哦: ''
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 曦月,<br>前端一只<br><br>有空喜欢研究些奇奇怪怪的东西<br><br>--empty--
 
 # 是否在网页底部展示备案号,不需要则保持false
-beian: false
+beian: 蜀ICP备20013501号-1

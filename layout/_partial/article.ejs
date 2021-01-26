@@ -1,6 +1,12 @@
+
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %> <%if(index){%> article-index<%}%>" itemscope itemprop="blogPost">
   <div class="article-inner">
     <% if (post.link || post.title){ %>
+      <style type="text/css">
+        .article-header{
+          border-color: <%= theme.style.main_color ? theme.style.main_color : "#4d4d4d" %>;
+        }
+      </style>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
         <% if (post.title) %>

@@ -100,7 +100,6 @@ gitment_oauth:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 主题色,包括头像上面的背景颜色,文章左边的色块,tag开关颜色
-  # main_color: '#4d4d4d'
   main_color: '#4d4d4d'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#bdc3c7,#2c3e50)'

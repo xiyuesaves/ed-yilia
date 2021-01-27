@@ -1,6 +1,11 @@
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
         <% if (theme.top){ %>
+        <style type="text/css">
+            .jump-container:hover .icon-back{
+                background-color: <%= theme.style.main_color ? theme.style.main_color : "rgba(36,193,246,.9)"%>;
+            }
+        </style>
         <div class="jump-container" id="js-jump-container" style="display:none;">
             <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
                 <i class="icon-font icon-back"></i>

@@ -9,11 +9,11 @@
         font-size:10px;  
         color:#fff;   
         height:18px;  
-        line-height:18px;  
+        line-height:20px;  
         float: left;
         padding:0 5px 0px 10px;  
         position:relative;  
-        border-radius:0 5px 5px 0; 
+        border-radius:0 4px 4px 0; 
         margin: 5px 9px 5px 8px;
         font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
         &:hover{
@@ -41,33 +41,33 @@
         }  
     }
     a.color1{
-        background:  #FF945C;
+        background:  #bdc3c7;
         &:before{
-            border-right-color: #FF945C;  
+            border-right-color: #bdc3c7;  
         }
     }
     a.color2{
-        background:  #cc8167;
+        background:  #76818c;
         &:before{
-            border-right-color: #cc8167;  
+            border-right-color: #76818c;  
         }
     }
     a.color3{
-        background:  #BA8F6C;
+        background:  #536170;
         &:before{
-            border-right-color: #BA8F6C;  
+            border-right-color: #536170;  
         }
     }
     a.color4{
-        background: #94635c;
+        background: #3e4f5f;
         &:before{
-            border-right-color:#94635c;  
+            border-right-color:#3e4f5f;  
         }
     }
     a.color5{
-        background: #7B5D5F;
+        background: #2c3e50;
         &:before{
-            border-right-color:#7B5D5F;  
+            border-right-color:#2c3e50;  
         }
     }
 }

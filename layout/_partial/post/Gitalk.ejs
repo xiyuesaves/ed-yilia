@@ -3,6 +3,15 @@
 <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 <script src="//unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
 <script type="text/javascript">
+	function hash(text) {
+	    'use strict';
+	    var hash = 5381,
+	        index = text.length;
+	    while (index) {
+	        hash = (hash * 33) ^ text.charCodeAt(--index);
+	    }
+	    return (hash >>> 0).toString();
+	}
     var gitalk = new Gitalk({
     // gitalk的主要参数
 		clientID: '<%=theme.gitalk_oauth.client_id%>',
@@ -10,7 +19,7 @@
 		repo: '<%=theme.gitalk_repo%>',
 		owner: '<%=theme.gitalk_owner%>',
 		admin: ['<%=theme.gitalk_owner%>'],
-		id: "<%=url%>",
+		id: hash("<%=url%>"),
     });
     gitalk.render('gitalk-container');
 </script>

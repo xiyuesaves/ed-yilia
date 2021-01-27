@@ -136,4 +136,12 @@
       url: config.url+url_for(post.path)
     }) %>
   <% } %>
+  <!-- Gitalk -->
+  <% if (theme.gitalk_owner && theme.gitalk_repo &&theme.gitalk_oauth && theme.gitalk_oauth.client_id && theme.gitalk_oauth.client_secret){ %>
+  <%- partial('post/Gitalk', {
+      key: post.slug,
+      title: post.title,
+      url: config.url+url_for(post.path)
+    }) %>
+  <% } %>
 <% } %>

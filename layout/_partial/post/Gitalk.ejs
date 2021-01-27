@@ -1,0 +1,16 @@
+<!-- Link Gitalk 的支持文件  -->
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+<script src="//unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+    // gitalk的主要参数
+		clientID: '<%=theme.gitalk_oauth.client_id%>',
+		clientSecret: '<%=theme.gitalk_oauth.client_secret%>',
+		repo: '<%=theme.gitalk_repo%>',
+		owner: '<%=theme.gitalk_owner%>',
+		admin: ['<%=theme.gitalk_owner%>'],
+		id: "<%=url%>",
+    });
+    gitalk.render('gitalk-container');
+</script>

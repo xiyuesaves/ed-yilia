@@ -92,10 +92,18 @@ disqus: false
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_repo: 'blog-repo'          #存储评论的 repo
 gitment_oauth:
   client_id: ''           #client ID
   client_secret: ''       #client secret
+
+#6、Gitment
+gitalk_owner: false      #你的 GitHub ID
+gitalk_repo: ''          #存储评论的 repo
+gitalk_oauth:
+  client_id: ''           #client ID
+  client_secret: ''       #client secret
+
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -122,7 +130,7 @@ smart_menu:
   aboutme: '关于'
 
 friends:
-  还没有链接哦: ''
+  还没有链接哦: 'http://lengmaomao.xyz/'
 
 aboutme: 曦月,<br>前端一只<br><br>有空喜欢研究些奇奇怪怪的东西<br><br>--empty--
 

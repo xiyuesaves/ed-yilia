@@ -135,4 +135,4 @@ friends:
 aboutme: 曦月,<br>前端一只<br><br>有空喜欢研究些奇奇怪怪的东西<br><br>
 
 # 是否在网页底部展示备案号,不需要则保持false
-beian: 蜀ICP备20013501号-1
+beian: false
